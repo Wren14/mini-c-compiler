@@ -1,0 +1,14 @@
+<		a		 b		 t0
+==		t0		FALSE		L1
+=		20				 a
+<		c		 a		 t2
+==		t2		FALSE		L2
+=		3				 res
+goto						 L3
+L2: 
+=		1				 res
+L3: 
+goto						 L4
+L1: 
+=		2				 res
+L4: 
